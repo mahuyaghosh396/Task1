@@ -35,17 +35,12 @@ body, h1, h2, h3, p, ul, li, form {
   }
   
   section {
-    padding: 60px 0;
+    padding: 40px 0;
     text-align: center;
     position: relative;
   }
   
-  .background-image {
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+ 
   
   h1 {
     font-size: 2.5rem;
@@ -149,4 +144,25 @@ body, h1, h2, h3, p, ul, li, form {
     content: "";
     display: flex;
     clear: both;
+  }
+
+
+
+  
+  input {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+
+  footer {
+    
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
   }
